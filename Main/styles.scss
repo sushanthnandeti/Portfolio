@@ -25,7 +25,7 @@
 .light-mode{
     --color-primary: #FFFFFF;
    //--color-secondary: #F56692;
-    --color-secondary:#3CDFFF;
+    --color-secondary:#2A9DF4;
     --color-white: #454E56;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -703,7 +703,7 @@ header{
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
-                margin: 0 2rem;
+                margin: 1rem;
                 transition: all .4s ease-in-out;
                 &:hover{
                     background-color: var(--color-secondary);
@@ -723,6 +723,7 @@ header{
     .right-contact{
         flex: 3;
         margin-left: 3rem;
+        margin-top: 1rem;
         .input-control{
             margin: 1.5rem 0;
             input, textarea{
@@ -749,6 +750,7 @@ header{
         }
 
         .submit-btn{
+            margin-top: 3rem;
             display: flex;
             justify-content: flex-start;
         }
